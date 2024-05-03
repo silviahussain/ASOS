@@ -1,0 +1,131 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap') ;
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #000000;
+    --color-base2: hsl(0, 0%, 0%);
+    --color-brand: #e0f780;
+    --color-brand2: #eeffa2;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree"
+}
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+    width: 1500px;
+    height: 50px;
+}
+
+/* NAVBAR */
+
+@media (min-width: 100px) {
+    .navbar {
+        min-height: 5vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(rgba(3, 63, 71,0.9),rgba(3, 63, 71, 0.753)), url(../Images/Asos banner. png)
+        background-size: cover;
+        background-posiion: center;
+    }
+
+/* Center alignment for the search bar container */
+.search-container {
+    margin: 0 auto; /* This centers the container horizontally */
+    width: 50%; /* Adjust this value to change the width of the search bar */
+}
+
+/* Style for the search input */
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 8px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 600px;
+    cursor: pointer;
+}
+
+/* Style for the text */
+.text-3 {
+    margin-right: 10px;
+}  
+
+/* Left alignment for the help-ection */
+.help-section {
+    margin-top:  70px; 
+    text-align: left;
+    background: #5b5484;
+    color: #000000;
+}
+
+.faq {
+    text-align: left;
+    background: #5b5484;
+    color: #000000;   
+}
+
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #000000;
+    margin-right: 200px; /* Adjust the value as needed */
+}
+
+.New-in {
+    margin-bottom: 200px; /* Adjust the value as needed */
+}
+
+.bc {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bold-text-2 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: hwb(0 100% 0%);
+}
+
+
+/* SERVICES */
+section .card{
+  border: 3px solid #000000;  
+  box-shadow: 4px 4px hwb(0 100% 0%);
+}
+
+/* ABOUT */
+section.about .container {
+    white-space-collapse: 10;
+
+}
+}
